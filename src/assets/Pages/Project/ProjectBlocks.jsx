@@ -8,7 +8,7 @@ const ProjectBlocks = () => {
       description: 'This personal portfolio is created using React.js and Tailwind CSS, showcasing skills, projects, and achievements in a clean, modern layout. It serves as a static, visually appealing online resume without advanced interactivity.',
       techStack: ['React.js', 'Tailwind CSS', 'Vercel'],
       bgColor: 'table',
-      GitHub: 'https://github.com/tanishirai/Portfolio_self',
+      GitHub: 'https://github.com/tanishirai/Portfolio',
     },
     {
       title: 'Amazon Clone',
