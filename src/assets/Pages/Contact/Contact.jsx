@@ -20,9 +20,10 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="flex justify-center items-center m-5">
-                        <button className="border-2 border-transparent text-white bg-headingB py-2 px-6 rounded-md hover:bg-white hover:text-black hover:border-black transition-all">
+                        
+                        <a href='/Images/Tanishi_Rai.pdf' target='_blank'><button className="border-2 border-transparent text-white bg-headingB py-2 px-6 rounded-md hover:bg-white hover:text-black hover:border-black transition-all">
                             See My Resume
-                        </button>
+                        </button></a>
                     </div>
                 </div>
             </div>
