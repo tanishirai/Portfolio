@@ -26,7 +26,7 @@ const Banner = () => {
             <h1 className='text-5xl text-headingB text-center font-semibold mt-5'>Academic Background</h1>
             <div className='college flex justify-center'>
                 <div className='flex w-[80%]'>
-                    <img src='./public/Images/clg_logo.png' className='h-40 w-50 m-7' />
+                    <img src='/Images/clg_logo.png' className='h-40 w-50 m-7' />
                     <div className="w-full max-w-full rounded overflow-hidden shadow-lg m-9">
                         {/* Top row with colored background */}
                         <div className="bg-table text-stone-950 p-2 rounded-t p-3 w-full">
@@ -57,7 +57,7 @@ const Banner = () => {
             </div>
             <div className='school flex justify-center'>
                 <div className='flex w-[80%]'>
-                    <img src='./public/Images/scl_logo.jpeg' className='w-72 h-auto' />
+                    <img src='/Images/scl_logo.jpeg' className='w-72 h-auto' />
                     <div className="w-full max-w-full rounded overflow-hidden shadow-lg m-4">
                         {/* Top row with colored background */}
                         <div className="bg-table text-stone-950 p-2 rounded-t p-3 w-full">
