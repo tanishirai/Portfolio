@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
     return (
@@ -12,7 +13,7 @@ const Contact = () => {
                 <div className="w-1/2 flex-1 text-center mt-4 ">
                     <h1 className="text-5xl text-headingB font-semibold">Contact Me</h1>
                     <p className="text-2xl p-5 text-content">You can reach out to me through below links</p>
-                    <div className='social-icon flex justify-center items-center'>
+                    <div className='c-social-icon flex justify-center items-center'>
                         <a href='https://github.com/tanishirai' target='_blank'><i class="fa-brands fa-github"></i></a>
                         <a href='https://www.linkedin.com/in/tanishi-rai/' target='_blank'><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="mailto:tanishirai2604@gmail.com" class="email-btn">

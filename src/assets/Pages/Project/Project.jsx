@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectBlocks from './ProjectBlocks'
-
+import './Project.css'
 const Project = () => {
   return (
     <div>

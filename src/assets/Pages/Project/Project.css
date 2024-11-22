@@ -1,0 +1,85 @@
+
+/* Banner Section */
+.banner-proj {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap; /* Ensure content wraps on small screens */
+}
+
+.banner-proj .mr-2 {
+    margin-right: 10px; /* Adjust the margin for SVG */
+}
+
+/* Make SVG responsive */
+.banner-proj svg {
+    max-width: 100%; /* Ensures the SVG scales with the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Default width for medium screens */
+    display: block; /* Ensures the SVG is treated as a block element */
+    margin: 0 auto; /* Center the SVG horizontally */
+}
+
+
+/* Adjusting for larger screens */
+@media (max-width: 1024px) {
+    .banner-proj {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-proj .mr-2 {
+        margin-right: 0;
+        margin-bottom: 10px; /* Space between SVG and text */
+    }
+
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+
+    .text-xl {
+        font-size: 1.125rem;
+    }
+
+    /* SVG adjustments for medium screens */
+    .banner-proj svg {
+        width: 100%; /* Slightly smaller on medium screens */
+    }
+
+    /* Ensure the SVG comes before the heading */
+    .banner-proj .mr-2 {
+        order: -1; /* Moves SVG above the heading */
+    }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .text-5xl {
+        font-size: 2rem;
+    }
+
+    .text-xl {
+        font-size: 1rem;
+    }
+
+    .banner-proj {
+        padding: 10px;
+    }
+
+    .banner-proj .text-center {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    /* SVG adjustments for small screens */
+    .banner-proj svg {
+        width: 100%; /* Smaller size for small screens */
+    }
+
+    /* Ensure the SVG comes before the heading */
+    .banner-proj .mr-2 {
+        order: -1; /* Moves SVG above the heading */
+    }
+}

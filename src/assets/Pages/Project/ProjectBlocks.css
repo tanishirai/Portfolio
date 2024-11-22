@@ -1,0 +1,68 @@
+
+  
+  /* Responsive Styles */
+  
+  /* Small Screens */
+  @media (max-width: 600px) {
+    .grid-cols-1 {
+      grid-template-columns: 1fr; /* Ensure single column on small screens */
+    }
+  
+    .text-2xl {
+      font-size: 1.25rem; /* Adjust font size on small screens */
+    }
+  
+    .text-lg {
+      font-size: 1rem; /* Adjust font size for descriptions */
+    }
+  
+    .p-6 {
+      padding: 1rem; /* Adjust padding */
+    }
+  
+    .gap-6 {
+      gap: 1rem; /* Reduce gap on smaller screens */
+    }
+  
+    .flex-wrap {
+      flex-direction: column; /* Stack flex items vertically on smaller screens */
+      align-items: center; /* Center-align items in the column layout */
+    }
+  
+    .text-sm {
+      font-size: 0.75rem; /* Adjust tech stack text size */
+    }
+  
+    .px-4 {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem; /* Adjust padding */
+    }
+  }
+  
+  /* Medium Screens (md and above) */
+  @media (min-width: 768px) {
+    .grid-cols-1 {
+      grid-template-columns: repeat(3, 1fr); /* Change to 2 columns for smaller medium screens */
+    }
+  
+    .md\:grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on larger medium screens */
+    }
+  
+    .text-2xl {
+      font-size: 1.375rem; /* Adjust font size for better readability */
+    }
+  
+    .text-lg {
+      font-size: 1.125rem; /* Keep consistent description size */
+    }
+  
+    .gap-6 {
+      gap: 1.5rem; /* Maintain the gap on medium screens */
+    }
+  
+    /* .flex {
+      justify-content: space-between; 
+    } */
+  }
+  

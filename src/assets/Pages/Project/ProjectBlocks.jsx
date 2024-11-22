@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaReact } from "react-icons/fa";
-
+import './ProjectBlocks.css'
 const ProjectBlocks = () => {
   const projects = [
     {

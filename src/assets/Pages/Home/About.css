@@ -54,3 +54,59 @@
     
     margin-right: 10px;  /* Space between the icon and text */
 }
+
+/* Responsiveness for small screens */
+@media (max-width: 768px) {
+  .intro {
+      flex-direction: column-reverse; /* Stack the image above the text */
+      align-items: center; /* Center the content */
+  }
+
+  .About_me {
+      text-align: center; /* Center text for better readability */
+      padding: 20px;
+  }
+
+  .social-icon {
+      justify-content: center; /* Keep the icons horizontally aligned */
+      margin-top: 15px; /* Adjust top margin */
+  }
+
+  .social-icon i {
+      width: 35px; /* Slightly smaller icons */
+      height: 35px;
+      font-size: 1.3rem; /* Adjust font size */
+  }
+
+  .pic {
+      width: 80%; /* Resize image to fit smaller screens */
+      margin-top: 20px; /* Space between the image and text */
+  }
+}
+
+/* For very small screens (like mobile phones) */
+@media (max-width: 480px) {
+  .social-icon {
+      justify-content: center; /* Center the icons horizontally */
+      gap: 10px; /* Reduce space between icons */
+  }
+
+  .social-icon i {
+      width: 30px; /* Even smaller icons */
+      height: 30px;
+      font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .pic {
+      width: 90%; /* Further reduce image size */
+  }
+
+  .About_me {
+      padding: 15px; /* Reduce padding */
+  }
+
+  .github-btn {
+      font-size: 14px; /* Adjust button text size */
+      padding: 8px 16px; /* Adjust padding */
+  }
+}
