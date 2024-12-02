@@ -4,7 +4,7 @@ const ProjectBlocks = () => {
   const projects = [
     {
       title: 'Personal Portfolio Website',
-      description: 'This personal portfolio is created using React.js and Tailwind CSS, showcasing skills, projects, and achievements in a clean, modern layout. It serves as a static, visually appealing online resume without advanced interactivity.',
+      description: 'Created a user-friendly and responsive portfolio platform using React.js and Tailwind CSS, showcasing my skills, projects, and achievements. This project not only enhanced my web development expertise but also improved my visibility to recruiters, serving as an online resume with a clean, modern layout.',
       techStack: ['React.js', 'Tailwind CSS', 'Vercel'],
       bgColor: 'table',
       GitHub: 'https://github.com/tanishirai/Portfolio',

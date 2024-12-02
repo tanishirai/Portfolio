@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <div>
             <div className="banner-contact flex">
-                <div className="flex-1 flex justify-center items-center mr-4 m-10">
-                    <img src="/Images/Tanishi_bg.png" className="w-80 h-80 rounded-full object-cover border-4 border-headingB" alt="Tanishi" />
+                <div className="flex-1 flex justify-center items-start m-10">
+                    <img src="/Images/Tanishi_bg.png" className="w-40 h-40 rounded-full object-cover border-4 border-headingB lg:w-80 lg:h-80" alt="Tanishi" />
                 </div>
 
 

@@ -26,7 +26,7 @@ const Banner = () => {
             <h1 className='text-5xl text-headingB text-center font-semibold mt-5'>Academic Background</h1>
             <div className='college flex flex-col justify-center items-center md:flex-row lg:flex-row xl:flex-row mb-10 md:mb-20 lg:mb-20 xl:mb-20'>
                 <div className='flex  md:w-1/2 lg:w-1/3 xl:w-1/5'>
-                    <img src='/Images/clg_logo.png' className='h-40 w-50 md:h-60 md:w-80 lg:h-48 lg:w-56 m-7' />
+                    <img src='/Images/clg_logo.png' className='h-40 w-50 md:h-60 md:w-80 lg:h-48 lg:w-48 m-9' />
                 </div>
                 <div className="w-[90%] md:w-1/2 lg:w-2/3 xl:w-3/4 max-w-full rounded overflow-hidden shadow-lg m-8 justify-center md:justify-start">                    {/* Top row with colored background */}
                     <div className="bg-table text-stone-950 p-2 rounded-t p-3 w-full">
