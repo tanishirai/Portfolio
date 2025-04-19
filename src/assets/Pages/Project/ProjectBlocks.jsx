@@ -3,10 +3,26 @@ import './ProjectBlocks.css'
 const ProjectBlocks = () => {
   const projects = [
     {
+      title: 'SplitUp - Simplifying Group Expenses',
+      description: 'Developed a collaborative and intuitive web app to help clubs, teams, and roommates manage shared expenses, budgets, and contributions. The platform enables users to create groups, log and split expenses, track debts, and view analytics — streamlining group financial management with real-time data handling and interactive visuals.',
+      techStack: ['React.js', 'Tailwind CSS','Firebase Firestore','Chart.js', 'Vercel'],
+      bgColor: 'table',
+      LiveDemo: 'https://split-up-neon.vercel.app/',
+      GitHub: 'https://github.com/tanishirai/SplitUp',
+    },
+    {
+      title: 'Firefox-Based Personal Finance Tracker Extension',
+      description: 'Designed a lightweight and responsive Firefox extension to help users manage personal finances by tracking expenses, setting budgets, and organizing financial goals. Focused on creating an intuitive user experience with seamless data storage, secure authentication, and real-time updates through Firebase integration.',
+      techStack: ['HTML', 'CSS', 'JavaScript', 'Firebase (Authentication & Firestore)'],
+      bgColor: 'table',
+      GitHub: 'https://github.com/tanishirai/FinanceManager',
+    },
+    {
       title: 'Personal Portfolio Website',
       description: 'Created a user-friendly and responsive portfolio platform using React.js and Tailwind CSS, showcasing my skills, projects, and achievements. This project not only enhanced my web development expertise but also improved my visibility to recruiters, serving as an online resume with a clean, modern layout.',
       techStack: ['React.js', 'Tailwind CSS', 'Vercel'],
       bgColor: 'table',
+      LiveDemo: 'https://tanishiportfolio.vercel.app/',
       GitHub: 'https://github.com/tanishirai/Portfolio',
     },
     {
